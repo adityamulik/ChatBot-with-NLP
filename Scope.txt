@@ -1,0 +1,41 @@
+Scope defined for a Chatbot.
+
+The HelpBot should be able to understand greetings and reply with a greeting.
+The bot should be able to understand the user's query.
+Bot needs access to the Active Directory (On Premise) or Azure Active Directory access.
+Bot needs to be able to unlock the account. 
+The bot should be able to understand spelling mistakes by the user.
+
+Further Mods: Reset Password, answer security questions (3 strong) or Mobile OTP.
+
+Possible Intents:
+
+Greeting Intent: User starting with a greeting.
+
+Query Intent: User asking the query to the chatbot
+
+
+
+Final Conversation:
+
+User: Hello
+
+HelpBot: Hello! Hope you are doing well.
+
+User: I am facing an issue
+
+HelpBot: Sure, Please elaborate what issue you are facing?
+
+User: My account is locked. OR Another user's account is locked.
+
+HelpBot: Okay! Please tell me the email address for which account needs to be unlocked? (e.g. "helpdesk@viteos.com")
+
+User: It is aditya.mulik@viteos.com
+
+HelpBot: Account "aditya.mulik@viteos.com" has been unlocked. OR Coundn't find account "aditya.mulik@gmail.com" in our Directory.
+
+HelpBot: Anything else I can help with?
+
+User: No Thanks! Bye.
+
+HelpBot: Bye! Have a Good Day.
