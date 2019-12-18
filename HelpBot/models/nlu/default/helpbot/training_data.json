@@ -1,0 +1,36 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greeting",
+        "text": "Hello"
+      },
+      {
+        "intent": "get_issue",
+        "text": "I am facing an issue"
+      },
+      {
+        "intent": "get_issue",
+        "text": "My account is locked"
+      },
+      {
+        "intent": "subscription",
+        "text": "Please subscribe me"
+      },
+      {
+        "intent": "get_issue",
+        "text": "Who is available from support?"
+      },
+      {
+        "intent": "greeting",
+        "text": "Hi"
+      },
+      {
+        "intent": "subscription",
+        "text": "New Sub"
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}

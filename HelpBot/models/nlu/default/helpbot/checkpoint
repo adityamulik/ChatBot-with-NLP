@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\aditya.mulik\\Desktop\\ChatBot\\HelpBot\\./models/nlu\\default\\helpbot\\intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "C:\\Users\\aditya.mulik\\Desktop\\ChatBot\\HelpBot\\./models/nlu\\default\\helpbot\\intent_classifier_tensorflow_embedding.ckpt"
